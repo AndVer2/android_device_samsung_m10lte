@@ -76,7 +76,7 @@ PRODUCT_COPY_FILES += \
 # Inherit from common (audio)
 #$(call inherit-product-if-exists, device/samsung/universal7870-common/device-oss_audio.mk)
 
- Custom mixer_paths prebuilt
+# Custom mixer_paths prebuilt
 PRODUCT_COPY_FILES += \
     $(DEVICE_PATH)/configs/prebuilt/audio/mixer_paths.xml:$(TARGET_COPY_OUT_VENDOR)/etc/mixer_paths.xml \
     $(DEVICE_PATH)/configs/prebuilt/audio/mixer_gains.xml:$(TARGET_COPY_OUT_VENDOR)/etc/mixer_gains.xml
